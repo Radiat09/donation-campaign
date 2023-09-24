@@ -22,7 +22,7 @@ const CardDescription = () => {
             </figure>
             <button
               onClick={handleDonatebtn}
-              className="text-white px-7 py-4 rounded text-xl font-semibold absolute bottom-7 left-8"
+              className="text-white px-7 py-4 rounded text-xl font-semibold absolute bottom-4 left-4"
               style={{
                 backgroundColor: `${text_color}`,
               }}

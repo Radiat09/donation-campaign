@@ -15,7 +15,7 @@ const Card = ({ card }) => {
   return (
     <Link to={`/cardDescription/${id}`}>
       <div
-        className="rounded-md"
+        className="rounded-md w-fit h-fit mx-auto"
         style={{
           backgroundColor: `${card_bg_color}`,
         }}
