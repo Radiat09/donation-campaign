@@ -1,0 +1,122 @@
+[
+  {
+    "image": "https://example.com/image1.jpg",
+    "title": "Fitness Tracker",
+    "category": "Health",
+    "card_bg_color": "#0052ff26",
+    "text_color": "#0052FF",
+    "button_bg_color": "#0052ff33",
+    "description": "Monitor your daily steps, heart rate, and sleep patterns with our advanced Fitness Tracker. Stay on top of your health and fitness goals!",
+    "price": 199.99
+  },
+  {
+    "image": "https://example.com/image2.jpg",
+    "title": "Organic Food Basket",
+    "category": "Food",
+    "card_bg_color": "#f8714726",
+    "text_color": "#F87147",
+    "button_bg_color": "#f8714733",
+    "description": "Indulge in the freshest and healthiest organic food items with our Organic Food Basket. Nourish your body with natural goodness!",
+    "price": 49.99
+  },
+  {
+    "image": "https://example.com/image3.jpg",
+    "title": "Fashionable Clothing",
+    "category": "Clothing",
+    "card_bg_color": "#79c23f26",
+    "text_color": "#79C23F",
+    "button_bg_color": "##79c23f33",
+    "description": "Stay in style and express yourself with our collection of Fashionable Clothing. Discover your unique fashion statement!",
+    "price": 79.99
+  },
+  {
+    "image": "https://example.com/image4.jpg",
+    "title": "Online Learning Courses",
+    "category": "Education",
+    "card_bg_color": "#ff444a26",
+    "text_color": "#FF444A",
+    "button_bg_color": "#ff444a33",
+    "description": "Expand your knowledge horizons and boost your career prospects with our diverse range of Online Learning Courses. Learn anytime, anywhere!",
+    "price": 29.99
+  },
+  {
+    "image": "https://example.com/image5.jpg",
+    "title": "Health Supplements",
+    "category": "Health",
+    "card_bg_color": "#0052ff26",
+    "text_color": "#0052FF",
+    "button_bg_color": "#0052ff33",
+    "description": "Enhance your well-being and vitality with our carefully selected Health Supplements. Invest in your health today!",
+    "price": 15.99
+  },
+  {
+    "image": "https://example.com/image6.jpg",
+    "title": "Gourmet Food Selection",
+    "category": "Food",
+    "card_bg_color": "#f8714726",
+    "text_color": "#F87147",
+    "button_bg_color": "#f8714733",
+    "description": "Elevate your culinary experiences with our exquisite Gourmet Food Selection. Savor the taste of luxury at home!",
+    "price": 39.99
+  },
+  {
+    "image": "https://example.com/image7.jpg",
+    "title": "Designer Clothing",
+    "category": "Clothing",
+    "card_bg_color": "#79c23f26",
+    "text_color": "#79C23F",
+    "button_bg_color": "##79c23f33",
+    "description": "Unleash your inner fashionista with our exclusive Designer Clothing. Walk the runway of life in style!",
+    "price": 59.99
+  },
+  {
+    "image": "https://example.com/image8.jpg",
+    "title": "Online Language Courses",
+    "category": "Education",
+    "card_bg_color": "#ff444a26",
+    "text_color": "#FF444A",
+    "button_bg_color": "#ff444a33",
+    "description": "Embark on a journey of language mastery with our Online Language Courses. Communicate fluently in a globalized world!",
+    "price": 89.99
+  },
+  {
+    "image": "https://example.com/image9.jpg",
+    "title": "Natural Health Remedies",
+    "category": "Health",
+    "card_bg_color": "#0052ff26",
+    "text_color": "#0052FF",
+    "button_bg_color": "#0052ff33",
+    "description": "Harness the power of nature for your well-being with our Natural Health Remedies. Restore balance to your life!",
+    "price": 129.99
+  },
+  {
+    "image": "https://example.com/image10.jpg",
+    "title": "Cooking Essentials",
+    "category": "Food",
+    "card_bg_color": "#f8714726",
+    "text_color": "#F87147",
+    "button_bg_color": "#f8714733",
+    "description": "Create culinary masterpieces with our high-quality Cooking Essentials. Turn your kitchen into a gourmet haven!",
+    "price": 69.99
+  },
+  {
+    "image": "https://example.com/image11.jpg",
+    "title": "Professional Workwear",
+    "category": "Clothing",
+    "card_bg_color": "#79c23f26",
+    "text_color": "#79C23F",
+    "button_bg_color": "##79c23f33",
+    "description": "Elevate your professional image with our exclusive collection of Professional Workwear. Dress for success!",
+    "price": 19.99
+  },
+  {
+    "image": "https://example.com/image12.jpg",
+    "title": "Online Skill Development",
+    "category": "Education",
+    "card_bg_color": "#ff444a26",
+    "text_color": "#FF444A",
+    "button_bg_color": "#ff444a33",
+    "description": "Unlock new opportunities and advance your career with our Online Skill Development courses. Shape your future!",
+    "price": 79.99
+  }
+]
