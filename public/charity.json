@@ -1,16 +1,18 @@
 [
   {
-    "image": "https://example.com/image1.jpg",
+    "id": "1",
+    "image": "https://i.ibb.co/ScLCHZd/Health.png",
     "title": "Fitness Tracker",
     "category": "Health",
-    "card_bg_color": "#0052ff26",
+    "card_bg_color": "#0052FF26",
     "text_color": "#0052FF",
     "button_bg_color": "#0052ff33",
     "description": "Monitor your daily steps, heart rate, and sleep patterns with our advanced Fitness Tracker. Stay on top of your health and fitness goals!",
     "price": 199.99
   },
   {
-    "image": "https://example.com/image2.jpg",
+    "id": "2",
+    "image": "https://i.ibb.co/PCFLpV6/Food.png",
     "title": "Organic Food Basket",
     "category": "Food",
     "card_bg_color": "#f8714726",
@@ -20,17 +22,19 @@
     "price": 49.99
   },
   {
-    "image": "https://example.com/image3.jpg",
+    "id": "3",
+    "image": "https://i.ibb.co/vddgQwf/Clothing.png",
     "title": "Fashionable Clothing",
     "category": "Clothing",
     "card_bg_color": "#79c23f26",
     "text_color": "#79C23F",
-    "button_bg_color": "##79c23f33",
+    "button_bg_color": "#79c23f33",
     "description": "Stay in style and express yourself with our collection of Fashionable Clothing. Discover your unique fashion statement!",
     "price": 79.99
   },
   {
-    "image": "https://example.com/image4.jpg",
+    "id": "4",
+    "image": "https://i.ibb.co/PrxKz2j/Education.png",
     "title": "Online Learning Courses",
     "category": "Education",
     "card_bg_color": "#ff444a26",
@@ -40,17 +44,19 @@
     "price": 29.99
   },
   {
-    "image": "https://example.com/image5.jpg",
+    "id": "5",
+    "image": "https://i.ibb.co/ScLCHZd/Health.png",
     "title": "Health Supplements",
     "category": "Health",
-    "card_bg_color": "#0052ff26",
+    "card_bg_color": "#0052FF26",
     "text_color": "#0052FF",
     "button_bg_color": "#0052ff33",
     "description": "Enhance your well-being and vitality with our carefully selected Health Supplements. Invest in your health today!",
     "price": 15.99
   },
   {
-    "image": "https://example.com/image6.jpg",
+    "id": "6",
+    "image": "https://i.ibb.co/PCFLpV6/Food.png",
     "title": "Gourmet Food Selection",
     "category": "Food",
     "card_bg_color": "#f8714726",
@@ -60,17 +66,19 @@
     "price": 39.99
   },
   {
-    "image": "https://example.com/image7.jpg",
+    "id": "7",
+    "image": "https://i.ibb.co/vddgQwf/Clothing.png",
     "title": "Designer Clothing",
     "category": "Clothing",
     "card_bg_color": "#79c23f26",
     "text_color": "#79C23F",
-    "button_bg_color": "##79c23f33",
+    "button_bg_color": "#79c23f33",
     "description": "Unleash your inner fashionista with our exclusive Designer Clothing. Walk the runway of life in style!",
     "price": 59.99
   },
   {
-    "image": "https://example.com/image8.jpg",
+    "id": "8",
+    "image": "https://i.ibb.co/PrxKz2j/Education.png",
     "title": "Online Language Courses",
     "category": "Education",
     "card_bg_color": "#ff444a26",
@@ -80,17 +88,19 @@
     "price": 89.99
   },
   {
-    "image": "https://example.com/image9.jpg",
+    "id": "9",
+    "image": "https://i.ibb.co/ScLCHZd/Health.png",
     "title": "Natural Health Remedies",
     "category": "Health",
-    "card_bg_color": "#0052ff26",
+    "card_bg_color": "#0052FF26",
     "text_color": "#0052FF",
     "button_bg_color": "#0052ff33",
     "description": "Harness the power of nature for your well-being with our Natural Health Remedies. Restore balance to your life!",
     "price": 129.99
   },
   {
-    "image": "https://example.com/image10.jpg",
+    "id": "10",
+    "image": "https://i.ibb.co/PCFLpV6/Food.png",
     "title": "Cooking Essentials",
     "category": "Food",
     "card_bg_color": "#f8714726",
@@ -100,17 +110,19 @@
     "price": 69.99
   },
   {
-    "image": "https://example.com/image11.jpg",
+    "id": "11",
+    "image": "https://i.ibb.co/vddgQwf/Clothing.png",
     "title": "Professional Workwear",
     "category": "Clothing",
     "card_bg_color": "#79c23f26",
     "text_color": "#79C23F",
-    "button_bg_color": "##79c23f33",
+    "button_bg_color": "#79c23f33",
     "description": "Elevate your professional image with our exclusive collection of Professional Workwear. Dress for success!",
     "price": 19.99
   },
   {
-    "image": "https://example.com/image12.jpg",
+    "id": "12",
+    "image": "https://i.ibb.co/PrxKz2j/Education.png",
     "title": "Online Skill Development",
     "category": "Education",
     "card_bg_color": "#ff444a26",
