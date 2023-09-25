@@ -1,11 +1,9 @@
-import { useState } from "react";
-
-const Banner = () => {
-  const [search, setSearchInput] = useState("");
+import PropTypes from "prop-types";
+const Banner = ({ getInput }) => {
   const handleSeacrhBtn = (e) => {
     e.preventDefault();
     const searchinput = e.target.searchInput.value;
-    setSearchInput(searchinput);
+    getInput(searchinput);
     e.target.searchInput.value = "";
   };
   // console.log(search);
@@ -31,7 +29,11 @@ const Banner = () => {
                   name="searchInput"
                   className="input input-bordered w-full"
                 />
-                <input type="submit" className="btn" value="Search" />
+                <input
+                  type="submit"
+                  className="btn bg-[#FF444A] border-[#FF444A] text-white hover:text-[#FF444A]"
+                  value="Search"
+                />
               </div>
             </form>
           </div>
@@ -40,5 +42,7 @@ const Banner = () => {
     </banner>
   );
 };
-
+Banner.propTypes = {
+  getInput: PropTypes.func.isRequired,
+};
 export default Banner;
