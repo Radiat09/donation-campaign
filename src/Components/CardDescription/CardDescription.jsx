@@ -1,15 +1,21 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import {
+  saveDonationToLocalStorage,
+  getStoredDonation,
+} from "../../Utility/localstorage";
 
 const CardDescription = () => {
   const cards = useLoaderData();
   const { id } = useParams();
   const card = cards.find((card) => card.id == id);
-  console.log(id, cards, card);
+  // console.log(id, cards, card);
   const { price, description, title, image, text_color } = card;
+  // console.log(card);
 
-  const handleDonatebtn = () => {
+  const handleDonatebtn = (card) => {
+    saveDonationToLocalStorage(card);
     toast.success("Congratulation,You have successfully Donated");
   };
   return (
@@ -21,7 +27,7 @@ const CardDescription = () => {
               <img className="w-full h-3/4 rounded-lg" src={image} alt="" />
             </figure>
             <button
-              onClick={handleDonatebtn}
+              onClick={() => handleDonatebtn(card)}
               className="text-white px-7 py-4 rounded text-xl font-semibold absolute bottom-4 left-4"
               style={{
                 backgroundColor: `${text_color}`,
