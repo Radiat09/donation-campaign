@@ -13,12 +13,13 @@ const Banner = ({ getInput }) => {
         className="hero min-h-screen mb-24 "
         style={{
           backgroundImage: 'url("/public/bgImg.jpg")',
+          backgroundColor: "rgba(255, 255, 255, 0.95)",
         }}
       >
-        <div className="hero-overlay bg-opacity-60"></div>
+        <div className="hero-overlay bg-opacity-90 bg-slate-100"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="form-control">
-            <h2 className="font-bold text-5xl">
+            <h2 className="font-bold text-5xl text-black">
               I Grow By Helping People In Need
             </h2>
             <form onSubmit={handleSeacrhBtn}>
@@ -27,7 +28,7 @@ const Banner = ({ getInput }) => {
                   type="text"
                   placeholder="Search…"
                   name="searchInput"
-                  className="input input-bordered w-full"
+                  className="input input-bordered text-black w-full"
                 />
                 <input
                   type="submit"
