@@ -14,9 +14,15 @@ const CardDescription = () => {
   const { price, description, title, image, text_color } = card;
   // console.log(card);
 
-  const handleDonatebtn = (card) => {
-    saveDonationToLocalStorage(card);
-    toast.success("Congratulation,You have successfully Donated");
+  const handleDonatebtn = (handleCard) => {
+    const storedCards = getStoredDonation();
+    const isExists = storedCards.find((card) => card.id == handleCard.id);
+    if (!isExists) {
+      saveDonationToLocalStorage(card);
+      toast.success("Congratulation,You have successfully Donated");
+    } else {
+      toast.error("You Have Already Donated");
+    }
   };
   return (
     <>

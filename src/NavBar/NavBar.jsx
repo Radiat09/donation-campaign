@@ -11,15 +11,48 @@ const Navbar = () => {
             </NavLink>
           </div>
           <div className="">
-            <ul className="menu menu-horizontal md:px-1 md:text-lg md:font-medium">
+            <ul className="flex gap-4 md:px-1 md:text-lg md:font-medium">
               <li className="mr-2">
-                <NavLink to="/">Home</NavLink>
+                <NavLink
+                  to="/"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#FF444A] underline"
+                      : ""
+                  }
+                >
+                  Home
+                </NavLink>
               </li>
               <li className="mr-2">
-                <NavLink to="/donation">Donation</NavLink>
+                <NavLink
+                  to="/donation"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#FF444A] underline"
+                      : ""
+                  }
+                >
+                  Donation
+                </NavLink>
               </li>
               <li className="mr-2">
-                <NavLink to="/statistics">Statistics</NavLink>
+                <NavLink
+                  to="/statistics"
+                  className={({ isActive, isPending }) =>
+                    isPending
+                      ? "pending"
+                      : isActive
+                      ? "text-[#FF444A] underline"
+                      : ""
+                  }
+                >
+                  Statistics
+                </NavLink>
               </li>
             </ul>
           </div>

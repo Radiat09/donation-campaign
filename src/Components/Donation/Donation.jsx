@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 const Donation = ({ donation }) => {
   return (
@@ -45,5 +46,7 @@ const Donation = ({ donation }) => {
     </div>
   );
 };
-
+Donation.propTypes = {
+  donation: PropTypes.object.isRequired,
+};
 export default Donation;
