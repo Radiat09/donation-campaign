@@ -1,11 +1,13 @@
-1.One can easily find their desired catagory of donation or choose any catagory from the shown data in the home page.
+###Project Featrues
 
-2.After clicking on any desired catagory item one will be navigated to another pager where he/she will get all details about the desired catagory.
+•> Search: Users can view specefic categtory donation by searching categery.
 
-3.Every route is dynamic.
+•> Varify Donation: Users can be assure with that donation actually happen or now by sweet alarts.
 
-4.One can see how many donations they made in the donation page upon clicking "Donation" in the #Navigation_bar.
+•> Color Category: Categoris are designed categorirywise so that users can easily understand which categery it is.
 
-5.One Can keep track of their donation/donations in percentage in the statistic page upon clicking "Statistics" in the #Navigation_bar.
+•> Donation List: Users can see the list and view datail about their donation.
 
-6.The site will give best Performance,easy Accessibility,Best Practices,SEO friendly and also it is responsive for all devices.
+•> Paichart: Ussers can see how many parcent they have donated.
+
+•> Responsive: Fully responsive for all devices.

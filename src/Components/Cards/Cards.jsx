@@ -14,11 +14,8 @@ const Cards = ({ search }) => {
       card.category.toLowerCase().includes(searchI)
     );
     setCardS(foundCard);
-    // } else {
-    //   setCardS(cards);
-    // }
   }, [cards, search]);
-  // console.log(cardsS);
+
   return (
     <div className="max-w-7xl mx-auto my-28">
       {search ? (

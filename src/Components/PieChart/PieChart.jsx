@@ -1,12 +1,4 @@
-import {
-  Pie,
-  PieChart,
-  Tooltip,
-  Legend,
-  Label,
-  ResponsiveContainer,
-  Cell,
-} from "recharts";
+import { Pie, PieChart, Tooltip, Legend, Label, Cell } from "recharts";
 import { getStoredDonation } from "../../Utility/localstorage";
 const PieCharts = () => {
   const donations = getStoredDonation();

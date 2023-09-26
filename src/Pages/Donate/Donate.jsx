@@ -4,6 +4,8 @@ import { useState } from "react";
 
 const Donate = () => {
   const donations = getStoredDonation();
+  const shortDonation = donations.slice(0, 4);
+  console.log(shortDonation);
   const [isShow, setIsShow] = useState(false);
 
   return (
@@ -16,14 +18,9 @@ const Donate = () => {
                 ? donations.map((donation) => (
                     <Donation key={donation.id} donation={donation}></Donation>
                   ))
-                : donations
-                    .slice(0, 4)
-                    .map((donation) => (
-                      <Donation
-                        key={donation.id}
-                        donation={donation}
-                      ></Donation>
-                    ))}
+                : shortDonation.map((donation) => (
+                    <Donation key={donation.id} donation={donation}></Donation>
+                  ))}
             </div>
             <div className="flex justify-center">
               <button
