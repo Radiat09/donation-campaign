@@ -28,9 +28,11 @@ const Donate = () => {
             <div className="flex justify-center">
               <button
                 onClick={() => setIsShow(!isShow)}
-                className="btn bg-[#009444] text-white hover:text-[#009444]"
+                className={`btn bg-[#009444] text-white hover:text-[#009444] ${
+                  isShow ? "hidden" : ""
+                }`}
               >
-                {isShow ? "Show Less" : "Show more"}
+                Show More
               </button>
             </div>
           </div>

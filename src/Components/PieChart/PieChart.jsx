@@ -1,4 +1,3 @@
-// import { PieChart as PC } from "@mui/x-charts/PieChart";
 import {
   Pie,
   PieChart,
